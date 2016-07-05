@@ -1,0 +1,145 @@
+﻿/* CSS Document */
+/*public begin*/
+* {padding:0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {margin:0;padding:0;}
+body {font:14px/24px Microsoft YaHei,Helvetica,Tahoma;line-height:20px;background:#f8f8f8;color:#666}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+table {border-collapse:collapse;border-spacing:0;}
+li {list-style:none;}
+img, fieldset,iframe {border:0;}
+input, button, textarea, select {font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%;outline:none}
+input, select,img{vertical-align:middle}
+em,i,font{font-style:normal;}
+
+a,a:hover,a:visited { text-decoration: none; }
+   /* a:hover {
+        color: #f85659;
+    }*/
+.clear{-zoom:1;clear:both;}
+.clear2{-zoom:1;clear:both;overflow: hidden;}
+.clear:after{content: "";display:block;height:0;clear:both;visibility: hidden;}
+.clear_{clear:both;height:0;overflow:hidden}
+.clear_no:after{content: "";display:block;height:0;clear:both;visibility: hidden;}
+
+.hide{display:none;}
+
+.btn {float:right;
+      padding-top:25px;
+}
+
+
+
+/*head begin*/
+#yc_header {
+    font-size: 14px;
+}
+
+.yc_header a {
+    color: #666666;
+}
+
+.yc_header a:hover {
+    color: #24DF78;
+}
+
+.page {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+
+/****************************/
+#yc_tnav {
+    height: 69px;
+    background: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#yc_tnav .page {
+
+}
+
+#yc_tnav .logo {
+    margin: 9px 0;
+    float: left;
+    width: 250px;
+}
+
+#yc_tnav .logo a {
+    display: inline-block;
+    width: 132px;
+    height: 46px;
+    overflow: hidden;
+    background: url(images/logo.png) no-repeat 100% 100%;
+    text-indent: -100px;
+}
+
+#yc_tnav .loc {
+    position: relative;
+    top: -3px;
+    cursor: pointer;
+}
+#yc_tnav .loc em{
+	max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    top:3px;
+	position:relative
+    }
+
+/**********/
+.tnav_wrap {
+    float: left;
+}
+
+.tnav_wrap li {
+    display: inline-block;
+    height: 69px;
+    line-height: 69px;
+    text-align: center;
+    float: left;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.tnav_wrap li a {
+    color: #333333;
+    position: relative;
+}
+
+.tnav_wrap li a:hover {
+    color: #24DF78;
+}
+
+.tnav_wrap li a.on {
+  font-weight: bold;
+  color: #f85659;
+}
+
+.main{width:1024px;margin:30px auto;position:relative}
+
+/*搜索search*/
+.search .wp-input {width:100%;
+height: 100%;
+}
+.search .wp-input .citySear{width:100%;vertical-align:baseline;background:none;border:none;}
+.search .wp-input .noBac{background:none;font-size:14px;}
+.search .wp-input .noBac{text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
