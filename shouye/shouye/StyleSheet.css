@@ -1,0 +1,170 @@
+﻿/* CSS Document */
+/*public begin*/
+* {margin:2px 0 0px 0;
+padding:0;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {margin:0;padding:0;}
+body {font:14px/24px Microsoft YaHei,Helvetica,Tahoma;line-height:20px;background:#f8f8f8;color:#666}
+em,i,font{font-style:normal;}
+a:hover{color:#f85659}
+a,a:hover,a:visited { text-decoration: none; }
+.btn {float:right;
+      padding-top:25px;
+}
+
+#footer{text-align:center; padding: 30px 0 30px;background:#ffffff;font-size: 12px;}
+
+/*head begin*/
+#yc_header {
+    font-size: 14px;
+}
+
+.yc_header a {
+    color: #666666;
+}
+
+.yc_header a:hover {
+    color: #f85659;
+}
+
+.page {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+
+/****************************/
+#yc_tnav {
+    height: 69px;
+    background: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#yc_tnav .logo {
+    margin: 9px 0;
+    float: left;
+    width: 250px;
+}
+
+#yc_tnav .logo a {
+    display: inline-block;
+    width: 132px;
+    height: 46px;
+    overflow: hidden;
+    background: url(images/logo.png) no-repeat 100% 100%;
+    text-indent: -100px;
+}
+
+#yc_tnav .loc {
+    position: relative;
+    top: -3px;
+    cursor: pointer;
+}
+#yc_tnav .loc em{
+	max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    top:3px;
+	position:relative
+    }
+
+/**********/
+.tnav_wrap {
+    float: left;
+}
+
+.tnav_wrap li {
+    display: inline-block;
+    height: 69px;
+    line-height: 69px;
+    text-align: center;
+    float: left;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.tnav_wrap li a {
+    color: #333333;
+    position: relative;
+}
+
+.tnav_wrap li a:hover {
+    color: #f85659;
+}
+
+.tnav_wrap li a.on {
+  font-weight: bold;
+  color: #f85659;
+}
+
+.main{width:1024px;margin:30px auto;position:relative}
+
+
+.mainOver{overflow:hidden;}
+.mainOver .sideBar,.mainOver .column{position:relative;}
+a{color:#666666}
+
+
+/*城市中首页*/
+.content{width:1024px;margin:0 auto;}
+
+/*sideBar 侧边栏*/
+.sideBar{width:240px;position:relative;left:0;top:0;z-index:2;}
+.sideBar .sideTab{height:46px;line-height:46px;text-align:center;font-size:18px;}
+.sideTab span{display:inline-block;width:120px;background:#f8f8f8;border-top:1px solid #f8f8f8;cursor:pointer}
+.sideTab .sClick{background:#fff;color:#f85659;border-top:#f85659 1px solid;}
+.sideBar .sideNav{position:relative;background:#fff;}
+.sideBar .sideNav .sideBox,.dif-sideBox{position:relative;z-index:2;height:110px;border-bottom:1px solid #eee;}
+.sideBar .sideNav .sideBox a,.dif-sideBox a{color:#666}
+.sideBar .sideNav .sideBox a:hover,.dif-sideBox a:hover{color:#f85659}
+.sideMen{max-height:86px;padding:8px 13px 12px;position:relative;overflow:hidden;z-index:5;display:block;border:2px solid #fff; border-right:none;}
+
+/*side遮罩*/
+.sideMain{width:582px;padding:10px 22px 14px;border:2px solid #ddd;background:#fff;position:absolute;left:240px;top:0px;z-index:3}
+.sideBottom{bottom:0;top:initial}
+.sideHov{height:86px;border:2px solid #ddd;border-right:none;background: #fff;padding:8px 13px 12px;width:214px;}
+
+.sideMain .tit,.sideMen .tit{height:34px;line-height:34px;font-size:16px;width:100%;padding-left:3px}
+.sideMain .tit a,.sideMen .tit a{padding:0;background:none;margin:0}
+.sideMen .tit{padding-left:5px;}
+.sideMen a,.sideMain a{line-height:30px;float:left;white-space:nowrap; }
+.sideMen a{padding-right:12px;margin:0 5px;}
+.sideMain .alink{overflow:hidden;margin:0 0 10px -8px;border-bottom:1px dashed #e9e9e9;padding-bottom:14px}
+.sideMain a{line-height:14px;padding:0 13px;margin-left:-1px;line-height:26px;}
+.sideMain .alinkNor{border-bottom:0;padding-bottom:0;margin-bottom:0}
+.sideMain .aLast{backgrund:none}
+
+.sideIndru .sideMen a{padding-right:3px}
+.sideBar .sideIndru .sideBox{height: 82.8px;}
+.sideIndru .sideMen{height: 62px;padding: 8.4px 13px 8.4px 13px;position: relative;}
+.sideIndru .sideMen .tit{height:32px;}
+.sideIndru .sideMen i{top:18px;}
+.sideIndru .sideHov{height: 62px;padding: 8.4px 13px 8.4px 13px;}
+
+.sideTit{height:44px;line-height:44px;padding-left:17px;font-size:16px;}
+.sideTit a{color:#666}
+.sideMen i{position:absolute;height:16px;width:8px;background-position: -46px -10px;top:58px;left:218px;}
+
+/*右边*/
+.column{width:770px;position:absolute;right:0;top:0;overflow:hidden;}
+
+
+/*条件筛选栏*/
+#selection {min-height: 180px;width:100%;background: #FFF;}
+.select-type {font-size: 14px;line-height: 24px; }
+.select-title {color: #AAA;float: left;width: 98px;margin-left: 23px;font-weight: bold;float:left;}
+.select-cont {margin-left: 179px;margin-right: 5px;}
+.select-cont.s {font-weight: normal;margin-right: 1px;}
+.select-cont.s a {margin-right: 1px;}
+.select-all {color: #707070;float: left;margin-left:3px;padding: 0 10px;font-weight: bold;transition: background,color .3s;-moz-transition: background,color .3s;-webkit-transition: background,color .3s;-o-transition: background,color .3s;}
+.select-all:hover,.select-all.on {color: #FFF;background:#465364;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;}
+.select-l1 a {color: #666;margin-left: 3px;padding: 0 10px;float: left;margin-bottom: 5px;transition: background,color .3s;-moz-transition: background,color .3s;-webkit-transition: background,color .3s;-o-transition: background,color .3s;cursor: pointer;}
+.select-l1 a:hover,.select-l1 a.on,{color: #FFF;background:#465364;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;}
+.select-l1 {padding-bottom: 8px;}
+.select-l1.pt5 {padding-top: 5px;}

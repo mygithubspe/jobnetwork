@@ -1,0 +1,14 @@
+
+/*条件筛选栏*/
+#selection {min-height: 180px;width:100%;background: #FFF;}
+.select-type {font-size: 14px;line-height: 24px; }
+.select-title {color: #AAA;float: left;width: 98px;margin-left: 23px;font-weight: bold;float:left;}
+.select-cont {margin-left: 179px;margin-right: 5px;}
+.select-cont.s {font-weight: normal;margin-right: 1px;}
+.select-cont.s a {margin-right: 1px;}
+.select-all {color: #707070;float: left;margin-left:3px;padding: 0 10px;font-weight: bold;transition: background,color .3s;-moz-transition: background,color .3s;-webkit-transition: background,color .3s;-o-transition: background,color .3s;}
+.select-all:hover,.select-all.on {color: #FFF;background:#465364;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;}
+.select-l1 a {color: #666;margin-left: 3px;padding: 0 10px;float: left;margin-bottom: 5px;transition: background,color .3s;-moz-transition: background,color .3s;-webkit-transition: background,color .3s;-o-transition: background,color .3s;cursor: pointer;}
+.select-l1 a:hover,.select-l1 a.on,{color: #FFF;background:#465364;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;}
+.select-l1 {padding-bottom: 8px;}
+.select-l1.pt5 {padding-top: 5px;}
